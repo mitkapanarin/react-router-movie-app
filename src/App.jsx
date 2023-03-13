@@ -11,12 +11,12 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/" className="active">
+            <Link to="/">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/movies" className="active">
+            <Link to="/movies">
               Movies
             </Link>
           </li>
