@@ -16,7 +16,7 @@ const NewMovie = () => {
 
   return (
     <>
-      <h1>New Movie</h1>
+      <h1>Add New Movie</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Name:

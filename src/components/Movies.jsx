@@ -9,7 +9,7 @@ function Movies() {
       <h1>Movies</h1>
       <ul>
         {movies.map((movies) => (
-          <li onClick={()=>navigate(`${movie.id}`)} key={movies.id}>
+          <li onClick={()=>navigate(`${movies.id}`)} key={movies.id}>
             <h2>{movies.name}</h2>
             <p>Genre: {movies.genre}</p>
             <p>Rating: {movies.rating}</p>
@@ -24,7 +24,8 @@ function Movies() {
       <br/>
       <Link to="/movies/3">Movie 3</Link>
       <br/>
-      <Link to="/movies/new">New Movie</Link>
+      <br/>
+      <Link to="/movies/new">Add New Movie</Link>
     </div>
   );
 }
