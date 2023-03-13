@@ -1,7 +1,7 @@
 export const movies = [
   {
     id: 1,
-    name: 'The Boy with stripped pijamas',
+    name: 'The Boy in the Striped Pajamas',
     genre: 'Drama',
     rating: '9.2/10',
   },
