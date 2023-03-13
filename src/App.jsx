@@ -3,6 +3,7 @@ import Movies from './components/Movies';
 import NotFound from './components/NotFound';
 import NewMovie from './components/NewMovie';
 import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
+import Movie from './components/Movie';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/movies" element={<Movies />} />
+        <Route path="/movies/:id" element={<Movie />} />
         <Route path="/movies/new" element={<NewMovie />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

@@ -36,6 +36,13 @@ function Movies() {
         ))}
       </ul>
       <br/>
+      <h1>Movie List</h1>
+      <Link to="/movies/1">Movie 1</Link>
+      <br/>
+      <Link to="/movies/2">Movie 2</Link>
+      <br/>
+      <Link to="/movies/3">Movie 3</Link>
+      <br/>
       <Link to="/movies/new">New Movie</Link>
     </div>
   );
