@@ -2,7 +2,7 @@ import Home from './components/Home';
 import Movies from './components/Movies';
 import NotFound from './components/NotFound';
 import NewMovie from './components/NewMovie';
-import { BrowserRouter as Router, Route, Routes, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Movie from './components/Movie';
 
 const App = () => {
@@ -11,14 +11,14 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" className="active">
+            <Link to="/" className="active">
               Home
-            </NavLink>
+            </Link>
           </li>
           <li>
-            <NavLink to="/movies" className="active">
+            <Link to="/movies" className="active">
               Movies
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </nav>
